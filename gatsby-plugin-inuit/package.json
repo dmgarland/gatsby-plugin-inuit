@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-plugin-inuit",
+  "version": "1.0.0",
+  "description": "Provides inuitcss SASS framework to Gatsby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "Dan Garland",
+  "license": "0BSD",
+  "dependencies": {
+    "inuitcss": "^6.0.0",
+    "gatsby-plugin-sass": "^2.x"
+  }
+}

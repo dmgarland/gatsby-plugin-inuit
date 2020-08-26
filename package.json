@@ -1,16 +1,12 @@
 {
-  "name": "gatsby-starter-plugin",
+  "name": "gatsby-plugin-inuit",
   "version": "1.0.0",
-  "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build script setup\""
-  },
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin"
+  "description": "Monorepo to hold a plugin and example that uses it",
+  "author": "Dan Garland",
+  "license": "MIT",
+  "workspaces": [
+    "example-site",
+    "gatsby-plugin-inuit"
   ],
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "0BSD"
+  "private": true
 }
