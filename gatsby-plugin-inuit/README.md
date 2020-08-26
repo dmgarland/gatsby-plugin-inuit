@@ -10,11 +10,11 @@ There is a monorepo with an example site using this plugin, found [here](https:/
 
 Node Sass is a peer dependency, so you'll need to install it.
 
-> npm save node-sass
+> npm --save node-sass
 
 or 
 
-> yarn install node-sass
+> yarn add node-sass
 
 And obvisouly you'll need to setup Gatsby too.
 
@@ -24,7 +24,7 @@ TODO
 
 ## How to install
 
-> npm save gatsby-plugin-inuit
+> npm --save gatsby-plugin-inuit
 
 Then, add the plugin to your `gatsby-config.js`
 
@@ -43,6 +43,15 @@ If you want to customise the output css directory (default is `src/stylesheets`)
   resolve: `gatsby-plugin-inuit`,
   options: { css_dir: "src/css" },
 },
+```
+
+## Using
+
+
+Don't forget to actually import the css
+
+```javascript
+import '../stylesheets/main.scss'
 ```
 
 ## When do I use this plugin?
