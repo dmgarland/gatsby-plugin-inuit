@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-inuit",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Provides inuitcss SASS framework to Gatsby",
   "main": "index.js",
   "scripts": {
