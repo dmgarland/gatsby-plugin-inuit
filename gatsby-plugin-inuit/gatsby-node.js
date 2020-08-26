@@ -23,7 +23,6 @@ exports.onPreInit = (_, pluginOptions) => {
       .split("/")
       .slice(0, -1)
       .join("/");
-    console.log(`Using inuit in ${base_dir}`);
 
     const files = [
       "example.main.scss",
