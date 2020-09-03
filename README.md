@@ -19,18 +19,18 @@ Please check the version number before you decide to use this in production.
 1. Add the plugin to your `gatsby-config.js`, filling in your WebDAV settings.
 
 ```
-    plugins: [
-      `gatsby-plugin-inuit`
-    ]
-    ```
+plugins: [
+  `gatsby-plugin-inuit`
+]
+```
     
 Or, if you want to customise the output css directory (default is `src/stylesheets`
 
 ```
-    {
-      resolve: `gatsby-plugin-inuit`,
-      options: { css_dir: "src/css" },
-    },
+{
+  resolve: `gatsby-plugin-inuit`,
+  options: { css_dir: "src/css" },
+},
 ```
 
 ## Developing
