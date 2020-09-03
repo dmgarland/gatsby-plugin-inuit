@@ -1,4 +1,4 @@
-# gatsby-source-inuit
+# gatsby-plugin-inuit
 
 This is a monorepo containing the plugin an example gatsby starter used to develop the app and serve as a reference.
 
